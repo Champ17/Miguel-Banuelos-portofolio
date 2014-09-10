@@ -1,6 +1,4 @@
-body{
-    background-color:red
-}
+
 nav a{
     color:white
 }
@@ -14,17 +12,72 @@ article h2{
     color:whitesmoke
 }
 #idex{
-  background-image: url(http://cdn.wallwuzz.com/uploads/game-backgrounds-background-wallpaper-wallpapers-wallwuzz-hd-wallpaper-15661.jpg)
+  background-image: url(http://cdn.wallwuzz.com/uploads/game-backgrounds-background-wallpaper-wallpapers-wallwuzz-hd-wallpaper-15661.jpg);
+     background-size: cover; 
 }
    
 
 
-#tech body {
-   background-image: url (http://images6.fanpop.com/image/photos/34500000/Gengar-pokemon-34578914-1200-1200.png)
+
+#tech{
+    background-image: url(../images/html-css-1920x1200.jpg);
+    background-size: cover;
 }
 
-    
 
-    
 
-           
+#pro {
+    background-image: url(http://images4.alphacoders.com/150/150568.jpg);
+    background-size: cover;    
+}
+
+.tech{
+    text-align: center;
+}
+
+#tech h1{
+    color:white;
+}
+
+#tech h2{
+    color:white;
+}
+
+#tech p{
+    color:white;
+}
+
+#pro{
+    background-image: url(http://kambyero.files.wordpress.com/2013/02/smb6.png);
+    background-size: cover;
+    /* the theme for this background is mario because later on one of our projects is mario*/
+}
+
+.left{
+    height: 400px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.right{
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    background-color: deepskyblue;
+    margin-left: 20px;
+}
+
+#pro h1{
+    color:whitesmoke
+}
+
+#pro h2{
+    color:whitesmoke
+}
+
+#pro p{
+    color:whitesmoke
+}
+
